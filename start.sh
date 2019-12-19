@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt install -y net-tools vim terminator git mysql-server
 git config --global user.name "kidd.sun"
 git config --global user.email "kidd.sun"
