@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install -y net-tools vim terminator git mysql-server gnome-tweak-tool gnome-shell-extensions
+sudo apt install -y net-tools vim terminator git mysql-server gnome-tweak-tool gnome-shell-extensions curl
 git config --global user.name "kidd.sun"
 git config --global user.email "kidd.sun"
 echo "开始配置mysql..."
