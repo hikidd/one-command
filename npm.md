@@ -14,3 +14,13 @@ export NVM_DIR="$HOME/.nvm"
 ```
 nvm install node
 ```
+
+## 设置淘宝源
+```
+npm config set registry https://registry.npm.taobao.org
+```
+
+### 还原默认源
+```
+npm config delete registry
+```
