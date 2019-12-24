@@ -8,9 +8,6 @@
     <proxies />
     <servers />
  
-    <!--本地依赖位置-->
-    <localRepository>D:\maven\repository</localRepository>
- 
     <mirrors>
         <mirror>
             <id>alimaven</id>
