@@ -1,3 +1,14 @@
+## 国内镜像
+创建或修改 /etc/docker/daemon.json 文件，修改为如下形式
+
+### vi /etc/docker/daemon.json
+```
+{
+    "registry-mirrors": ["http://hub-mirror.c.163.com"]
+}
+systemctl restart docker.service
+```
+
 ## 安装步骤：
 
 1.更新Ubuntu的apt源索引
@@ -97,3 +108,4 @@ docker container kill 容器名或容器id
 ```
 docker container rm 容器名或容器id
 ```
+
