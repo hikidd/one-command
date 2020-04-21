@@ -1,7 +1,7 @@
 ## 安装步骤：
 
 1.更新Ubuntu的apt源索引
-        sudo apt-get update
+sudo apt-get update
 
 2.安装包允许apt通过HTTPS使用仓库
   sudo dpkg --configure -a
