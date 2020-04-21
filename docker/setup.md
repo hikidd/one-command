@@ -1,26 +1,31 @@
 ## 安装步骤：
 
 1.更新Ubuntu的apt源索引
-
+```
 sudo apt-get update
+```
 
 2.安装包允许apt通过HTTPS使用仓库
 ```
   sudo dpkg --configure -a
   sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 ```
-3.添加Docker官方GPG key
 
+3.添加Docker官方GPG key
+```
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
 
 4.设置Docker稳定版仓库
-
+```
   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+ ```
   
 5.更新apt源索引
-
+```
   sudo apt-get update
-  
+ ```
+ 
 6.安装最新版本Docker CE（社区版）
 
   sudo apt-get install docker-ce
