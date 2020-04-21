@@ -5,10 +5,10 @@
 sudo apt-get update
 
 2.安装包允许apt通过HTTPS使用仓库
-
+```
   sudo dpkg --configure -a
   sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
-
+```
 3.添加Docker官方GPG key
 
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
